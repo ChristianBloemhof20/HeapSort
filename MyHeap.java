@@ -1,6 +1,6 @@
 /** Christian Bloemhof
  *  CS 349-05
- * Creating a heap from an array of integers
+ *  Creating a heap from an array of integers
  */
 
 import java.util.ArrayList;
@@ -147,14 +147,5 @@ public class MyHeap {
         }
 
         return a;
-    }
-
-    public static void main(String args[]) {
-        int a[] = {2, 7, 3, 21, -7, 14};
-        heapSortDecreasing(a);
-        System.out.println("Final Array:");
-        for (int i=0; i < a.length; i++) {
-            System.out.format("a[%d]: %d\n", i, a[i]);
-        }
     }
 }
